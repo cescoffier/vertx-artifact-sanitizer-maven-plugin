@@ -42,7 +42,11 @@ public class ModuleUtils {
     }
 
     private static String extractModuleNameFromDirectoryPattern(Log log, MavenProject project) {
-        String name;File res = new File(project.getBasedir(), "src/main/resources");
+        String name;
+        File res = new File(project.getBasedir(), "src/main/resources");
+        if (! res.isDirectory()) {
+            return null;
+        }
         Collection<File> dirs = FileUtils.listFilesAndDirs(res, FalseFileFilter.INSTANCE,
             new WildcardFileFilter("*-js"));
         if (!dirs.isEmpty()) {
