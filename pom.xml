@@ -72,7 +72,7 @@
 
     <!-- Test dependency versions -->
     <assertj-core.version>3.4.1</assertj-core.version>
-    <junit.version>4.8.2</junit.version>
+    <junit.version>4.13.1</junit.version>
     <mockito-all.version>1.10.19</mockito-all.version>
     <maven-compat.version>3.3.9</maven-compat.version>
 
