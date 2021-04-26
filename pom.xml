@@ -64,7 +64,7 @@
     <plexus-utils.version>3.0.24</plexus-utils.version>
     <aether-util.version>1.0.0.v20140518</aether-util.version>
     <maven-aether-provider.version>3.2.5</maven-aether-provider.version>
-    <commons-io.version>2.5</commons-io.version>
+    <commons-io.version>2.7</commons-io.version>
     <commons-lang3.version>3.4</commons-lang3.version>
     <mojo-executor.version>2.2.0</mojo-executor.version>
     <guava.version>19.0</guava.version>
