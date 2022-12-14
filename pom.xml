@@ -68,7 +68,7 @@
     <commons-lang3.version>3.4</commons-lang3.version>
     <mojo-executor.version>2.2.0</mojo-executor.version>
     <guava.version>19.0</guava.version>
-    <snakeyaml.version>1.26</snakeyaml.version>
+    <snakeyaml.version>1.32</snakeyaml.version>
 
     <!-- Test dependency versions -->
     <assertj-core.version>3.4.1</assertj-core.version>
